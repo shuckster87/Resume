@@ -1,0 +1,22 @@
+{
+    "name": "Resume",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "containerEnv": {
+        "HOME": "/home/developer"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "James-Yu.latex-workshop",
+                "ms-vscode.makefile-tools"
+            ]
+        }
+    },
+    "securityOpt": [
+        "label=disable"
+    ]
+}
+
