@@ -3,139 +3,224 @@
 \usepackage{geometry}
 \usepackage{color}
 \usepackage[compact]{titlesec}
+\usepackage{paracol}
+\usepackage{hyperref}
+\hypersetup{urlcolor=blue, colorlinks=true}
 
 \titleformat{\section}{\color{blue}\normalfont\small\bfseries}{\color{blue}\thesection}{1em}{}
-% \titlespacing{\section}{0pt}{*0}{*0}
 
 \pagestyle{empty}
 
 \begin{document}
-    \begin{flushleft}
-        \Huge\color{blue} Ryan Shuck   
-    \end{flushleft}
+\begin{flushleft}
+    \Huge\color{blue} Ryan Shuck
+\end{flushleft}
 
-    \begin{flushleft}
-    \section*{Contact Info:}
-    \footnotesize
-    Address: Stittville, NY 13469
-    \newline
-    Phone: 315-709-4529
-    \newline
-    Email: shucksterbomb@gmail.com     
-    \end{flushleft}
-
-    \noindent
-    {\color{blue} \rule{\linewidth}{1mm}}
-
-    \section*{Websites, Portfolios, Profiles}
-    \begin{itemize}
-    \scriptsize
-        \item https://www.linkedin.com/in/ryanshuck/
-        \item https://github.com/shuckster87
-    \end{itemize}
-
-    \section*{Education:}
-    \begin{itemize}
-    \scriptsize
-    \item B.S, Computer Science  (GPA: 3.30)
-        \begin{itemize}
-            \item SUNY Polytechnic Institute - Utica, NY
-        \end{itemize}
-    \item Minor, Game Design (GPA: 3.40)
-        \begin{itemize}
-            \item SUNY Polytechnic Institute - Utica, NY
-        \end{itemize}
-
-    \end{itemize}
-
-    \section*{Objective:}
-    \begin{flushleft}
-        \footnotesize
-        Computer Science graduate in pursuit of a full-time, entry-level position that allows me to showcase my skills while gaining on-the-job experience. 
-    \end{flushleft}
-   
-
-    \section*{Skills:}
-    \begin{itemize}
-    \scriptsize
-    \item Programming Languages:
-        \begin{itemize}
-            \item C, C++, Java, CSharp, Rust, Lua, Python
-        \end{itemize}
-    \item Operating Systems:
-        \begin{itemize}
-            \item Linux, Windows
-        \end{itemize}
-    \item Tools:
-        \begin{itemize}
-            \item Virtualization with VMWare/Virtual Box
-            \item LaTeX
-        \end{itemize}
-    \item Database Tools:
-        \begin{itemize}
-            \item PostgreSQL
-            \item MongoDB
-        \end{itemize}
-    \item Problem Solving
-    \item TroubleShooting
-    \item Machine Learning
-
-    \end{itemize}
-
-    \section*{Certifications:}
-    \begin{itemize}
-    \scriptsize
-    \item Technical Support Fundamentals 
-        \begin{itemize}
-            \item Google (Coursera)
-        \end{itemize}
-    \item The Bits and Bytes of Computer Networking
-        \begin{itemize}
-            \item Google (Coursera) 
-        \end{itemize}
-    \item Operating Systems and You: Becoming a Power User
-        \begin{itemize}
-            \item Google (Coursera) 
-        \end{itemize}
-    \item Supervised Machine Learning: Classification and Regression
-        \begin{itemize}
-            \item DeepLearning.AI, Stanford University (Coursera)
-        \end{itemize}
-    \item Advanced Learning Algorithms
-        \begin{itemize}
-            \item DeepLearning.AI, Stanford University (Coursera)
-        \end{itemize}
-    \item Unsupervised Learning, Recommenders, Reinforcement Learning
-        \begin{itemize}
-            \item DeepLearning.AI, Stanford University (Coursera)
-        \end{itemize}
-    \item Machine Learning Specialization
-        \begin{itemize}
-            \item DeepLearning.AI, Stanford University (Coursera)
-        \end{itemize}
-    \end{itemize}
-
-    \section*{Relevant Courses:}
-    \begin{itemize}
-    \scriptsize
-        \item CS240 - Data Structures and Algorithms
-        \item CS249 - Object Oriented Programming
-        \item CS330 - Operating Systems and Networking
-        \item CS350 - Information and Knowledge Management
-        \item CS370 - Software Engineering
-        \item CS431 - Principles Programming Languages
-        \item CS441 - Computer System Architecture
-        \item CS495 - Artifical Intelligence
-    \end{itemize}
-
-    \section*{Projects:}
-    \begin{itemize}
-    \scriptsize
-        \item WeConnect
+\begin{paracol}{2}
+    \begin{leftcolumn}
+        \begin{flushleft}
+            \section*{\underline{Contact Info:}}
+            \footnotesize
             \begin{itemize}
-                \item Full stack messaging application that uses JavaScript, React, Express, NodeJS, and MongoDB
+                \item Address: Stittville, NY 13469
+                \item Phone: 315-709-4529
+                \item Email: shucksterbomb@gmail.com
             \end{itemize}
-        \item Resume 
-    \end{itemize} 
+        \end{flushleft}
+    \end{leftcolumn}
 
+    \begin{rightcolumn}
+        \section*{\underline{Websites, Portfolios, Profiles:}}
+        \begin{itemize}
+            \footnotesize
+            \item \url{https://www.linkedin.com/in/ryanshuck/}
+            \item \url{https://github.com/shuckster87}
+        \end{itemize}
+    \end{rightcolumn}
+\end{paracol}
+
+\noindent{\color{blue} \rule{\linewidth}{1mm}}
+
+\section*{Education:}
+\begin{itemize}
+    \scriptsize
+    \item B.S, Computer Science (GPA: 3.30)
+          \begin{itemize}
+              \item SUNY Polytechnic Institute - Utica, NY
+          \end{itemize}
+    \item Minor, Game Design (GPA: 3.40)
+          \begin{itemize}
+              \item SUNY Polytechnic Institute - Utica, NY
+          \end{itemize}
+\end{itemize}
+
+\section*{Objective:}
+\begin{flushleft}
+    \footnotesize
+    Recent Computer Science graduate and aspiring Software Engineer with a
+    strong passion for machine learning and web development. Seeking to
+    leverage hands-on experience with full-stack development to contribute to
+    innovative projects and advance my career within a forward-looking company.
+    Eager to collaborate with others to deliver high-quality software solutions
+    and continuously enhance my technical skills.
+\end{flushleft}
+
+\begin{paracol}{2}
+    \begin{leftcolumn}
+        \section*{Skills:}
+    \begin{itemize}
+    \scriptsize
+    \item \textbf{Programming Languages:}
+          \begin{itemize}
+              \item C
+              \item C++
+              \item Java
+              \item JavaScript
+              \item C\#
+              \item Rust
+              \item Lua
+              \item Python
+          \end{itemize}
+    \item \textbf{Markup Languages:}
+    \begin{itemize}
+        \item HTML
+        \item CSS
+    \end{itemize}
+    \item \textbf{Operating Systems:}
+          \begin{itemize}
+              \item Linux
+                \begin{itemize}
+                    \item Red Hat Enterprise Linux
+                    \item Fedora Linux
+                    \item Ubuntu
+                \end{itemize} 
+              \item Windows
+          \end{itemize}
+    \item \textbf{Tools:}
+          \begin{itemize}
+              \item VMware Workstation
+              \item Virtualbox
+              \item QEMU/KVM
+              \item \LaTeX
+              \item Podman
+              \item Git
+          \end{itemize}
+    \item \textbf{Databases:}
+          \begin{itemize}
+              \item PostgreSQL
+              \item MongoDB
+          \end{itemize}
+    \item \textbf{Areas:}
+        \begin{itemize}
+            \item Machine Learning
+            \item Web Development (Full Stack)
+        \end{itemize}
+\end{itemize}
+\end{leftcolumn}
+
+\begin{rightcolumn}
+    \section*{Relevant Courses:}
+\begin{itemize}
+    \scriptsize
+    \item CS240 - Data Structures and Algorithms
+    \item CS249 - Object Oriented Programming
+    \item CS330 - Operating Systems and Networking
+    \item CS350 - Information and Knowledge Management
+    \item CS370 - Software Engineering
+    \item CS431 - Principles Programming Languages
+    \item CS441 - Computer System Architecture
+    \item CS495 - Artifical Intelligence
+\end{itemize}
+\end{rightcolumn}
+\end{paracol}
+        
+
+\section*{Certifications:}
+\begin{itemize}
+    \scriptsize
+    \item Technical Support Fundamentals
+          \begin{itemize}
+              \item Google (Coursera)
+              \item Completed on May 7th, 2024
+              \item \url{https://coursera.org/share/b9986cb1db08d60131e869f1337a465c}
+          \end{itemize}
+    \item The Bits and Bytes of Computer Networking
+          \begin{itemize}
+              \item Google (Coursera) 
+              \item Completed on May 14th, 2024
+              \item \url{https://coursera.org/share/9c7d6037998980c98bd6e3295845f1ed}
+          \end{itemize}
+    \item Operating Systems and You: Becoming a Power User
+          \begin{itemize}
+              \item Google (Coursera)
+              \item Completed on June 20th, 2024
+              \item \url{https://coursera.org/share/0b431439c760daa8469959582310d4bd}
+          \end{itemize}
+    \item Supervised Machine Learning: Classification and Regression
+          \begin{itemize}
+              \item DeepLearning.AI, Stanford University (Coursera)
+              \item Completed on September 15th, 2023
+              \item \url{https://coursera.org/share/4b76022e4384bc29f15d1ffe68789be8}
+          \end{itemize}
+    \item Advanced Learning Algorithms
+          \begin{itemize}
+              \item DeepLearning.AI, Stanford University (Coursera)
+              \item Completed on October 18th, 2023
+              \item \url{https://coursera.org/share/b3f9818a806f898590e3fab9ef0aa3f8}
+          \end{itemize}
+    \item Unsupervised Learning, Recommenders, Reinforcement Learning
+          \begin{itemize}
+              \item DeepLearning.AI, Stanford University (Coursera)
+              \item Completed on December 2nd, 2023
+              \item \url{https://coursera.org/share/5038633a8e8d3ce662ba0089603e3694} 
+          \end{itemize}
+    \item Machine Learning Specialization
+          \begin{itemize}
+              \item DeepLearning.AI, Stanford University (Coursera)
+              \item Completed on December 2nd, 2023
+              \item \url{https://coursera.org/share/dab1444540737f0b57f4f8893fc464a5}
+          \end{itemize}
+\end{itemize}
+
+\section*{Projects:}
+\begin{itemize}
+    \scriptsize
+    \item WeConnect
+          \begin{itemize}
+              \item \textbf{Overview:} 
+               \begin{itemize}
+                 \item Full stack messaging application that uses JavaScript, React, Express, NodeJS, and MongoDB.
+                 \item \underline{Link}: \url{https://we-connect-gf8s.onrender.com}
+               \end{itemize}
+              \item \textbf{Key Responsibilities:}
+                \begin{itemize}
+                    \item Performed functional testing of the software.
+                    \item Proposed and designed models for messages, users, and friendships.
+                    \item Developed validator for users in the user model.
+                \end{itemize}
+              \item \textbf{Technologies Used:}
+              \begin{itemize}
+                \item Frontend:
+                    \begin{itemize}
+                        \item React
+                        \item NodeJS
+                        \item CSS
+                    \end{itemize}
+                \item Backend:
+                    \begin{itemize}
+                        \item MongoDB
+                        \item Express
+                    \end{itemize}
+                \item Version Control:
+                    \begin{itemize}
+                        \item Git
+                    \end{itemize}
+              \end{itemize}
+              \item \textbf{Achievements:}
+              \begin{itemize}
+                \item Learned how to configure applications that contain a separate frontend and backend.
+                \item Learned about architecting realtime, bi-directional communication between web clients and servers.
+              \end{itemize}
+          \end{itemize}
+\end{itemize}
 \end{document}
